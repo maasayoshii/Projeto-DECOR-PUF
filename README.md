@@ -7,7 +7,7 @@ Um sistema desktop desenvolvido em Java para o gerenciamento interno de uma loja
 * 🔒 Tela de Autenticação (Login):
     * Controle de acesso restrito para atendentes e gerentes.
     * Interface responsiva que inicializa automaticamente em modo Tela Cheia (`MAXIMIZED_BOTH`), centralizando os componentes dinamicamente com `GridBagLayout`.
-*   👥 Cadastro de Clientes:** * Formulário robusto para registro de novos clientes (Nome, E-mail, CPF, Telefone).
+*   👥 **Cadastro de Clientes:** * Formulário robusto para registro de novos clientes (Nome, E-mail, CPF, Telefone).
     * **Máscaras de Entrada:** Utilização de `JFormattedTextField` para formatação automática e bloqueio de caracteres inválidos em campos sensíveis (CPF e Telefone).
     * **Validações Avançadas de Lógica:**
         * Bloqueio de números no campo de Nome utilizando Expressões Regulares (**Regex**: `.*\\d.*`).
