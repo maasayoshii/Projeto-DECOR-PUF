@@ -24,10 +24,10 @@ Um sistema desktop desenvolvido em Java para o gerenciamento interno de uma loja
 
   * 📸 Capturas de Tela
 * <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/39c4ecd5-4055-4b73-9907-f240650ce066" />
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/dbf26bf8-af92-4d81-b182-9b617eb60634" />
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/1db530fb-ed3f-451f-83ea-cb7cd82a704e" />
-<img width="365" height="390" alt="image" src="https://github.com/user-attachments/assets/c2634422-9309-4ee1-89ec-b27f0099cc11" />
-<img width="500" height="425" alt="image" src="https://github.com/user-attachments/assets/a33e3e14-0852-42b8-a713-058848ad92d9" />
-<img width="863" height="471" alt="image" src="https://github.com/user-attachments/assets/a239d56d-8931-458b-a2b4-fed90290897f" />
+* <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/dbf26bf8-af92-4d81-b182-9b617eb60634" />
+* <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/1db530fb-ed3f-451f-83ea-cb7cd82a704e" />
+* <img width="365" height="390" alt="image" src="https://github.com/user-attachments/assets/c2634422-9309-4ee1-89ec-b27f0099cc11" />
+* <img width="500" height="425" alt="image" src="https://github.com/user-attachments/assets/a33e3e14-0852-42b8-a713-058848ad92d9" />
+* <img width="863" height="471" alt="image" src="https://github.com/user-attachments/assets/a239d56d-8931-458b-a2b4-fed90290897f" />
 
 
