@@ -54,4 +54,4 @@ Tela dedicada à expansão do catálogo da loja, manipulando dados financeiros, 
 * **Arquitetura:** Componentização de layouts (`GridBagLayout` e `Free Design`), tratamento avançado de Exceções (`try-catch`) e manipulação de arquivos (I/O).
 
 ---
-Desenvolvido com dedicação por **Maasayoshii** 🚀
+Desenvolvido com dedicação por **Nicolas Masayoshi** 🚀
