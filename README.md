@@ -33,16 +33,16 @@ Formulário robusto para o registro seguro de novos clientes, focado em evitar a
 ---
 
 ### 📦 Cadastro de Produtos (Uso Gerencial)
-Tela dedicada à expansão do catálogo da loja, manipulando dados financeiros, controle de estoque inicial e arquivos de imagem.
-* **Upload Dinâmico de Imagens:** Implementação de `JFileChooser` com filtros para extensões específicas (`.jpg`, `.png`). Utilizei cálculo de *Aspect Ratio* via `Image.SCALE_SMOOTH` para redimensionar as fotos inseridas sem causar distorção visual na interface.
-* **Regras de Negócio de Interface:** * Uso de `JSpinner` com modelo numérico restrito para impedir o cadastro de estoque negativo.
-  * Implementação de `JCheckBox` para o gerente definir a modalidade do produto (Aluguel, Venda ou Ambos).
-* **Tratamento Financeiro Seguro:** O campo de Valor converte e limpa automaticamente os separadores de milhar visuais no momento do cadastro, garantindo a conversão perfeita para ponto flutuante (`Double`) exigida pelo Java.
+Tela dedicada à expansão do catálogo da loja, manipulando dados financeiros flexíveis, controle de estoque inicial e arquivos de imagem.
+* **Precificação Dinâmica e Interativa (UX):** A interface adapta-se à modalidade comercial (Venda, Aluguel ou Ambos). Os campos de valor financeiro iniciam bloqueados (`setEnabled(false)`) e são ativados em tempo real apenas quando o usuário interage com os `JCheckBox` correspondentes.
+* **Validação Lógica Condicional:** O motor de validação processa os dados de forma inteligente. O sistema exige e valida rigorosamente apenas os valores referentes às caixas selecionadas, ignorando campos desativados para evitar falhas de conversão (`NumberFormatException`).
+* **Upload Dinâmico de Imagens:** Implementação de `JFileChooser` com filtros para extensões (`.jpg`, `.png`). Utilização de cálculo matemático de *Aspect Ratio* via `Image.SCALE_SMOOTH` para redimensionar as fotos inseridas sem causar distorção na interface.
+* **Prevenção de Falhas:** Uso de `JSpinner` com modelo numérico restrito para impedir estoque negativo. Os campos de preço limpam automaticamente os separadores de milhar visuais no momento do clique, garantindo a conversão limpa para ponto flutuante (`Double`).
 
-<img width="978" height="596" alt="image" src="https://github.com/user-attachments/assets/afe3607b-875a-4640-8428-4cf58433c03a" />
-<img width="959" height="527" alt="image" src="https://github.com/user-attachments/assets/32007169-847c-47d0-91ed-8a4a796ac7f7" />
-<img width="888" height="528" alt="image" src="https://github.com/user-attachments/assets/b5e3fc01-244e-4514-8e70-4fc897950c86" />
-
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/e6a10a39-af6b-42ab-8167-5d94b1913705"/>
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/0cbeb515-09e8-4739-b050-0a7004fd8a2e"/>
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/4275b23e-86d3-4ed3-a36c-e717c661bfc8"/>
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/6095fc52-7fd0-4037-8ac6-5b267e8f9439"/>
 
 
 
