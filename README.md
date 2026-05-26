@@ -13,6 +13,17 @@ Módulo de segurança para controle de acesso restrito, diferenciando as permiss
 <img width="662" height="439" alt="image" src="https://github.com/user-attachments/assets/7ceaf05b-77c2-40ea-9135-692c06d3f9af" />
 <img width="673" height="445" alt="image" src="https://github.com/user-attachments/assets/ffd6e885-b88c-444e-ba54-9bd5a448eb0f" />
 
+---
+
+### 👨‍💼 Cadastro de Funcionários (Módulo de RH e Acesso)
+Interface responsável pela criação estruturada de novos perfis de acesso ao sistema, focada na segurança das credenciais e prevenção de erros de digitação.
+* **Segurança de Credenciais:** Implementação de campos protegidos (`JPasswordField`) com dupla checagem lógica (Senha e Confirmação de Senha) garantindo que o método `.equals()` valide a exatidão antes do cadastro.
+* **UX de Autenticação:** Criação de um `JCheckBox` interativo para revelar/ocultar senhas em tempo real, manipulando o método `.setEchoChar()` para alternar entre texto limpo e caracteres ocultos (`\u2022`).
+* **Validações Lógicas Rigorosas:**
+  * Uso do método `.length()` para exigir um comprimento mínimo seguro para o Nome de Usuário e a Senha.
+  * Validação de Seleção Obrigatória no `JComboBox` para definição do nível de privilégio (Gerente ou Atendente).
+  * Preparação estrutural (Mock) para validação futura da regra `UNIQUE` do Banco de Dados, impedindo nomes de usuários duplicados.
+  <img width="900" height="480" alt="image" src="https://github.com/user-attachments/assets/817e844d-8794-4c30-a342-7b48005940fe" />
 
 ---
 
